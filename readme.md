@@ -37,11 +37,10 @@ OpenBoard is an ongoing project, and future enhancements may include:
 
 Feel free to contribute and bring your ideas to OpenBoard's development!
 
-## Screenshots
+## Screenshot - 1
 
 ![Screenshot 1](./screenshot/open-board-screenshot-1.png)
+
+## Screenshot - 2
+
 ![Screenshot 2](./screenshot/open-board-screenshot-2.png)
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
