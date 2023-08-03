@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>OpenBoard App</title>
+</head>
+<body>
+    <div class="options-container">
+        <!-- <i class="fa-solid fa-bars"></i> -->
+        <i class="fa fa-times"></i>
+
+    </div>
+    <div class="tools-container">
+        <img src="icons/Pencil.svg" alt="pencil">
+        <img src="icons/Eraser.svg" alt="eraser">
+        <img src="icons/Download.svg" alt="download">
+        <img src="icons/Upload.svg" alt="upload">
+        <img src="icons/StickyNotes.svg" alt="stickynotes">
+        <img src="icons/Redo.svg" alt="redo">
+        <img src="icons/Undo.svg" alt="undo">
+    </div>
+    <div class="pencil-tool display-none">
+        <div class="pencil-width-cont">
+            <input class="pencilwidth" type="range" min="2" max="10" value="3">
+        </div>
+        <div class="pencil-color-cont">
+            <div class="black pencil-color"></div>
+            <div class="red pencil-color"></div>
+            <div class="blue pencil-color"></div>
+        </div>
+    </div>
+    <div class="eraser-tool eraser-display-none">
+        <input class="eraserwidth" type="range" min="2" max="10" value="3">
+    </div>
+    <!-- <div class="sticky-container">
+        <div class="sticky-header-cont">
+            <div class="green-min minimise"></div>
+            <div class="red-close remove"></div>
+        </div>
+        <div class="sticky-text-cont">
+            <textarea class="note"></textarea>
+        </div>
+
+    </div> -->
+    <div class="clear-btn-container">
+        <button class="clear-btn">
+            Clear
+        </button>
+    </div>
+    <canvas></canvas>
+    <script src="./tools.js"></script>
+    <script src="./canvas.js"></script>
+</body>
+</html>
